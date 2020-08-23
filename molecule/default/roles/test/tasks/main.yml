@@ -1,0 +1,9 @@
+---
+- name: Check Java version
+  command: java -version
+  register: java
+
+- name: Test if Java is installed
+  assert:
+    that:
+      - "'openjdk version' in java.stderr"
