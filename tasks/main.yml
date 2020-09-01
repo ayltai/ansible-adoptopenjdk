@@ -68,6 +68,7 @@
     -file {{ item.1 }} \
     -noprompt
   changed_when: no
+  ignore_errors: yes
   with_indexed_items:
     - "{{ ansible_env.HOME }}/root_ca_1.der"
     - "{{ ansible_env.HOME }}/root_ca_2.der"
@@ -84,6 +85,7 @@
     -file {{ item.1 }} \
     -noprompt
   changed_when: no
+  ignore_errors: yes
   with_indexed_items:
     - "{{ ansible_env.HOME }}/root_ca_1.der"
     - "{{ ansible_env.HOME }}/root_ca_2.der"
