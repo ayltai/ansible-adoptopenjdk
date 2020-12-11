@@ -1,8 +1,8 @@
 # AdoptOpenJDK role for Ansible
 
 [![GitHub workflow status](https://img.shields.io/github/workflow/status/ayltai/ansible-adoptopenjdk/CI?style=flat)](https://github.com/ayltai/ansible-adoptopenjdk/actions)
-[![Ansible quality score](https://img.shields.io/badge/quality-5-success)](https://galaxy.ansible.com/ayltai/fail2ban)
-[![Ansible role](https://img.shields.io/badge/role-ayltai.fail2ban-blue)](https://galaxy.ansible.com/ayltai/fail2ban)
+[![Ansible quality score](https://img.shields.io/badge/quality-5-success)](https://galaxy.ansible.com/ayltai/adoptopenjdk)
+[![Ansible role](https://img.shields.io/badge/role-ayltai.adoptopenjdk-blue)](https://galaxy.ansible.com/ayltai/adoptopenjdk)
 ![Maintenance](https://img.shields.io/maintenance/yes/2020?style=flat)
 [![Release](https://img.shields.io/github/release/ayltai/ansible-adoptopenjdk.svg?style=flat)](https://github.com/ayltai/ansible-adoptopenjdk/releases)
 [![License](https://img.shields.io/github/license/ayltai/ansible-adoptopenjdk.svg?style=flat)](https://github.com/ayltai/ansible-adoptopenjdk/blob/master/LICENSE)
