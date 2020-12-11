@@ -57,6 +57,7 @@
     - root_ca_1.der
     - root_ca_2.der
     - root_ca_3.der
+    - godaddy_ca_g2.der
 
 - name: Import CA certificates to Java keystore
   command: |
