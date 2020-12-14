@@ -74,6 +74,7 @@
     - "{{ ansible_env.HOME }}/root_ca_1.der"
     - "{{ ansible_env.HOME }}/root_ca_2.der"
     - "{{ ansible_env.HOME }}/root_ca_3.der"
+    - "{{ ansible_env.HOME }}/godaddy_ca_g2.der"
   when: ansible_facts['os_family'] == 'Debian'
 
 - name: Import CA certificates to Java keystore
@@ -91,4 +92,5 @@
     - "{{ ansible_env.HOME }}/root_ca_1.der"
     - "{{ ansible_env.HOME }}/root_ca_2.der"
     - "{{ ansible_env.HOME }}/root_ca_3.der"
+    - "{{ ansible_env.HOME }}/godaddy_ca_g2.der"
   when: ansible_facts['os_family'] == 'RedHat'
